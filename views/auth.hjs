@@ -1,0 +1,15 @@
+<form action="/auth/login" method="post">
+    <h1>login form</h1>
+    <input type="email" name="username">
+    <input type="password" name="password">
+    <input type="submit" value="Log in">
+</form>
+<a href="/auth/logout">Logout</a>
+<form action="/auth/signup" method="post">
+    <h1>Signup form</h1>
+    <input type="email" name="username">
+    <input type="password" name="password">
+    <input type="password" name="password2">
+    <input type="submit" value="Log in">
+</form>
+<span>{{message}}</span>
